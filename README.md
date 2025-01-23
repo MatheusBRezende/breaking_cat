@@ -56,7 +56,7 @@ Se você gosta do projeto e deseja ajudar a mantê-lo ativo, considere contribui
 
 ## 📎 Links Importantes
 
-- [GitHub do Desenvolvedor](https://github.com/SpikeoFino)
+- [GitHub do Desenvolvedor](https://github.com/MatheusBRezende)
 
 ---
 
