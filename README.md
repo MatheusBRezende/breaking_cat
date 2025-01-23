@@ -6,7 +6,7 @@
 
 O projeto foi criado como uma solução criativa para facilitar o aprendizado de química, unindo o ensino tradicional à interatividade e ao humor. Por meio de personagens inspirados na série *Breaking Bad*, como **Cat White** e **Cat Pinkman**, os usuários podem explorar conceitos de química de forma descontraída. 
 
-Além disso, o site contará com uma inteligência artificial interativa que responde a perguntas relacionadas a química, proporcionando um ambiente educativo único.
+Além disso, o site contará futuramente com uma inteligência artificial interativa que responde a perguntas relacionadas a química, proporcionando um ambiente educativo único.
 
 ## 🎨 Layout e Estilo
 
