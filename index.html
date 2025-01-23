@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Cat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/lucide-icons/font/lucide.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo" id="topo"><i class="fa-solid fa-flask-vial"></i>Breaking Cat</div>
+                <button class="menu-toggle" aria-label="Menu">
+                    <i class="lucide-menu"></i>
+                </button>
+                <div class="nav-links">
+                    <a href="sobre.html"><i class="fa-regular fa-circle-question"></i> Sobre o projeto</a>
+                    <a href="#pergunte"><i class="fa-solid fa-robot"></i> Pergunte a IA</a>
+                </div>
+                
+
+               
+            </nav>
+        </header>
+
+        <section class="characters">
+            <div class="character-card" data-character="walter">
+                <div class="character-image">
+                    <img src="/breaking-bad-site/img/heisenberg cat.jpg" alt="Cat White">
+                </div>
+                <h3>Cat White</h3>
+                <i class="fa-solid fa-flask"></i>
+                <p>O Mestre da Química</p>
+            </div>
+
+            <div class="character-card" data-character="jesse">
+                <div class="character-image">
+                    <img src="/breaking-bad-site/img/jesse pinkman cat.jpg" alt="Cat Pinkman">
+                </div>
+                <h3>Cat Pinkman</h3>
+                <i class="fa-regular fa-face-angry"></i>
+                <p>O Aluno Impulsivo</p>
+            </div>
+
+            <div class="character-card" data-character="gustavo">
+                <div class="character-image">
+                    <img src="/breaking-bad-site/img/gustavo.jpg" alt="Cat Gustavo">
+                </div>
+                <h3>Cat Gustavo</h3>
+                <i class="fa-solid fa-comments-dollar"></i>
+                <p>O empresário</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="chat-section" id="pergunte">
+            <div class="chat-header">
+                <i class="bi bi-chat-left-text"></i>
+                Faça as Perguntas Aqui
+            </div>
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <!-- Messages will be added here dynamically -->
+                </div>
+                <form class="chat-input" id="chatForm">
+                    <input type="text" id="questionInput" placeholder="Pergunte algo sobre química...">
+                    <div class="typing-indicator">
+                        <i class="fa-solid fa-circle typing-bubble fa-bounce" style="animation-delay: 0s;"></i>
+                        <i class="fa-solid fa-circle typing-bubble fa-bounce" style="animation-delay: 0.2s;"></i>
+                        <i class="fa-solid fa-circle typing-bubble fa-bounce" style="animation-delay: 0.4s;"></i>
+                    </div>
+                    <button type="submit">
+                        <i class="fa-solid fa-share"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+
+        <hr>
+
+        <section class="donation-section">
+            <div class="donation-card">
+                <div class="heart">
+                    <i class="fa-solid fa-heart fa-beat-fade"></i>
+                </div>
+                <h3>Apoie Nosso Projeto</h3>
+                <p>
+                    Ajude-nos a manter o laboratório funcionando e a criar mais conteúdo educacional para todos.
+                </p>
+                <p>Escolha uma forma de contribuição:</p>
+                <div class="donation-options">
+                    <a href="https://www.paypal.com" target="_blank" class="donation-link">
+                        <i class="fa-brands fa-paypal"></i> Contribuir via PayPal
+                    </a>
+                    <a href="https://www.pix.com.br" target="_blank" class="donation-link">
+                        <i class="bi bi-qr-code-scan"></i></i> Contribuir via PIX
+                    </a>
+                </div>
+                <button class="donate-button">Fazer uma Contribuição</button>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>Caso queira acessar o meu <a href="https://github.com/SpikeoFino " target="_blank">GitHub</a> <a
+        href="https://github.com/SpikeoFino" target="_blank"><i class="fa-brands fa-github"></i></a></footer>
+
+</html>

@@ -1,0 +1,159 @@
+:root {
+  --primary-green: #1a4731;
+  --secondary-green: #2d8653;
+  --accent-green: #34d399;
+  --background-dark: #111111;
+  --text-light: #ffffff;
+  --text-gray: #9ca3af;
+}
+
+/* Resetando margens e padding para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definindo a fonte padrão e a cor de fundo */
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(
+    180deg,
+    var(--primary-green),
+    var(--background-dark)
+  );
+  min-height: 100vh;
+  color: var(--text-light);
+}
+
+/* Estilizando o container principal */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--accent-green);
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .logo i {
+  font-size: 1.5rem;
+}
+
+header .nav-links {
+  text-align: right;
+}
+
+header .nav-links a {
+  color: var(--accent-green);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+header .nav-links a:hover {
+  color: #ffffff;
+}
+
+/* Estilo da seção "Sobre" */
+#sobre {
+  background-color: black;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+#sobre h1 {
+  font-size: 2rem;
+  display: inline-block; /* Mantém os elementos na mesma linha */
+  margin-bottom: 20px;
+}
+
+#sobre .sub-title {
+  font-size: 2.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #34d399; /* Cor de destaque */
+  margin-left: 0.5rem; /* Espaçamento entre os títulos */
+}
+
+
+#sobre p {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+#sobre i{
+  display: block; 
+  font-size: 3rem; 
+  color: #34d399; 
+  margin: 2rem auto 0; 
+  text-align: center; 
+  margin-top: 40px;
+}
+
+/* Estilo do rodapé */
+footer {
+  color: #ffffff; /* Cor do texto */
+  text-align: center; /* Centraliza o conteúdo */
+  padding: 20px; /* Espaçamento interno */
+  margin-top: 30px; /* Espaço entre o footer e o restante do site */
+  border-top: 2px solid #34d399; /* Linha separando o footer */
+}
+
+footer a {
+  color: #34d399; /* Cor verde para os links */
+  text-decoration: none; /* Remove o sublinhado */
+  font-weight: bold; /* Deixa os links em negrito */
+}
+
+footer a:hover {
+  color: white; /* Adiciona sublinhado ao passar o mouse */
+}
+
+footer i {
+  margin-right: 5px; /* Espaço entre o ícone e o texto */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  header .logo {
+    font-size: 1.5rem;
+  }
+
+  header .nav-links a {
+    font-size: 1rem;
+  }
+
+  #sobre h1 {
+    font-size: 2rem;
+  }
+
+  #sobre p {
+    font-size: 1rem;
+  }
+}
+
